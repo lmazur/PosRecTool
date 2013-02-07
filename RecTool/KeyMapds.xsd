@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="kmds" targetNamespace="http://tempuri.org/KeyMapds.xsd" xmlns:mstns="http://tempuri.org/KeyMapds.xsd" xmlns="http://tempuri.org/KeyMapds.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="kmds" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="kmds" msprop:Generator_DataSetName="kmds">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="KeyMap" msprop:Generator_UserTableName="KeyMap" msprop:Generator_RowDeletedName="KeyMapRowDeleted" msprop:Generator_RowChangedName="KeyMapRowChanged" msprop:Generator_RowClassName="KeyMapRow" msprop:Generator_RowChangingName="KeyMapRowChanging" msprop:Generator_RowEvArgName="KeyMapRowChangeEvent" msprop:Generator_RowEvHandlerName="KeyMapRowChangeEventHandler" msprop:Generator_TableClassName="KeyMapDataTable" msprop:Generator_TableVarName="tableKeyMap" msprop:Generator_RowDeletingName="KeyMapRowDeleting" msprop:Generator_TablePropName="KeyMap">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Tag" msprop:Generator_UserColumnName="Tag" msprop:Generator_ColumnVarNameInTable="columnTag" msprop:Generator_ColumnPropNameInRow="Tag" msprop:Generator_ColumnPropNameInTable="TagColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Side1" msprop:Generator_UserColumnName="Side1" msprop:Generator_ColumnVarNameInTable="columnSide1" msprop:Generator_ColumnPropNameInRow="Side1" msprop:Generator_ColumnPropNameInTable="Side1Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Side2" msprop:Generator_UserColumnName="Side2" msprop:Generator_ColumnVarNameInTable="columnSide2" msprop:Generator_ColumnPropNameInRow="Side2" msprop:Generator_ColumnPropNameInTable="Side2Column" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
